@@ -1,0 +1,4 @@
+StepDefinition\Checkout.class
+StepDefinition\Locked_User.class
+Runner\TestRunner.class
+StepDefinition\Logout.class

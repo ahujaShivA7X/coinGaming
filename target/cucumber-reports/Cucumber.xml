@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="14.326534">
+<testcase classname="Login" name="Buy an article successfully" time="7.15537">
+<system-out><![CDATA[Given Go to the website.....................................................passed
+And enter username and password.............................................passed
+Then Click on the Sign In button............................................passed
+And User is on the home page................................................passed
+And add an item to the cart.................................................passed
+And Go to the cart..........................................................passed
+And click on Checkout.......................................................passed
+And enter firstname, lastname and Zip and click continue....................passed
+Then click on Finish........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="User is able to Logout" time="3.650322">
+<system-out><![CDATA[Given User logs in..........................................................passed
+And Logs out................................................................passed
+Then the user should be on login page.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Locked user is not able to login" time="3.520842">
+<system-out><![CDATA[Given User logs in using locked out user credentials........................passed
+Then The user should get an error...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
